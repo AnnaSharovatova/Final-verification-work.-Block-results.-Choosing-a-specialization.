@@ -15,3 +15,7 @@
 + ["hello", "2", "world", ":-)"] -> ["2", ":-)"]
 + ["1234", "1567", "-2", "computer science"] -> ["-2"]
 + ["Russia", "Denmark", "Kazan"] -> []
+
+![Итоговая контрольная работа](Контрольная работа.jpg)
+
+[Ссылка на проверочную работу на портале GB.](https://gbcdn.mrgcdn.ru/uploads/asset/4091713/attachment/5ed16111865f61aaeecc4cf95dad179f.png)
