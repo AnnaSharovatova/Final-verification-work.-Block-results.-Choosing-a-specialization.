@@ -1,3 +1,8 @@
+.vscode/*
+bin/
+obj/s
+
+
 # Prerequisites
 *.d
 
