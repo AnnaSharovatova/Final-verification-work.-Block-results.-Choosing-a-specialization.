@@ -8,13 +8,13 @@ string[] NewArray = new string[MainArray.Length];
 
 void CreateNewArrayByCondition(string[] MainArray, string[] NewArray)
 {
-    int count = 0;
+    int j = 0;
     for (int i = 0; i< MainArray.Length; i++)
     {
         if (MainArray[i].Length <= 3)
         {
-            NewArray[count] = MainArray[i];
-            count++;
+            NewArray[j] = MainArray[i];
+            j++;
         }
     }
 }
@@ -27,5 +27,6 @@ void PrintArray(string[] array)
     }
 }
 
+Console.WriteLine();
 CreateNewArrayByCondition(MainArray, NewArray);
 PrintArray(NewArray);
